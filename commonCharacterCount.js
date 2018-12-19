@@ -7,7 +7,6 @@ const str2 = s2.split('');
     for(var i=0;i<str1.length;i++){
         if(str2.indexOf(str1[i])>=0){
             count++;
-            console.log(str2.indexOf(str1[i]));
             str2.splice(str2.indexOf(str1[i]),1);
             
         }
